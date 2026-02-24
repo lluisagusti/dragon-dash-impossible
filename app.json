@@ -3,6 +3,7 @@
     "name": "Dragon Dash Impossible",
     "slug": "dragon-dash-chronicles",
     "version": "1.0.0",
+    "baseUrl": "/dragon-dash-impossible",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "rork-app",
@@ -25,13 +26,15 @@
       "package": "app.rork.dragon_dash_chronicles"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "output": "static",
+      "baseUrl": "/dragon-dash-impossible"
     },
     "plugins": [
       [
         "expo-router",
         {
-          "origin": "https://rork.com/"
+          "origin": "https://lluisagusti.github.io/dragon-dash-impossible/"
         }
       ],
       "expo-font",
