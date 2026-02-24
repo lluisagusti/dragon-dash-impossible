@@ -1,6 +1,6 @@
 # 🐉 DRAGON DASH IMPOSSIBLE 🐉
 
-**"The most impossible-est dragon game ever created... by me!"**
+**"The most impossible-est dragon game ever created!"**
 
 Welcome to **Dragon Dash Impossible**! This is my very first game, and guess what? I'm pretty proud of it. It's simple, it's a bit of a test, and yes, it might be impossible to beat, but that's part of the charm, right?
 
