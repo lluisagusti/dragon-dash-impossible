@@ -227,6 +227,7 @@ export default function MenuScreen() {
             Tap to jump · Hold to glide · Collect rings
           </Text>
           <Text style={styles.hintText2}>Double jump in mid-air!</Text>
+          <Text style={styles.thanksText}>Thanks to Alex</Text>
         </Animated.View>
       </View>
     </View>
@@ -344,5 +345,11 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: 'rgba(255,255,255,0.35)',
     letterSpacing: 0.5,
+  },
+  thanksText: {
+    textAlign: 'center',
+    fontSize: 10,
+    color: 'rgba(255,255,255,0.2)',
+    marginTop: 8,
   },
 });
