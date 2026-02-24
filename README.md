@@ -32,5 +32,3 @@ Want to see the dragon on your own machine?
 - **Alex**: For being awesome and helping out (check the bottom of the game screen!).
 - **You**: For actually reading this far!
 
----
-*Made with ❤️ and a lot of testing. It's just a test, but it's MY test.*
