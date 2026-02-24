@@ -178,7 +178,7 @@ export default function MenuScreen() {
         >
           <Text style={styles.titleMain}>DRAGON DASH</Text>
           <View style={styles.titleAccent} />
-          <Text style={styles.titleSub}>CHRONICLES</Text>
+          <Text style={styles.titleSub}>IMPOSSIBLE</Text>
         </Animated.View>
 
         <Animated.View
@@ -249,6 +249,7 @@ const styles = StyleSheet.create({
     marginBottom: 36,
   },
   titleMain: {
+    textAlign: 'center',
     fontSize: 40,
     fontWeight: '900',
     color: GameColors.ui.neonCyan,
@@ -266,6 +267,7 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   titleSub: {
+    textAlign: 'center',
     fontSize: 16,
     fontWeight: '700',
     color: GameColors.ui.gold,
@@ -332,11 +334,13 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   hintText: {
+    textAlign: 'center',
     fontSize: 12,
     color: GameColors.ui.whiteTransparent,
     letterSpacing: 1,
   },
   hintText2: {
+    textAlign: 'center',
     fontSize: 11,
     color: 'rgba(255,255,255,0.35)',
     letterSpacing: 0.5,
