@@ -7,7 +7,7 @@
     "start-web": "bunx rork start -p 07vih9p4zvdxgfizp4l7v --web --tunnel",
     "start-web-dev": "DEBUG=expo* bunx rork start -p 07vih9p4zvdxgfizp4l7v --web --tunnel",
     "lint": "expo lint",
-    "predeploy": "npx expo export -p web && find dist -name \"*.html\" -exec sed -i '' 's/src=\"\\/dragon-dash-impossible\\//src=\".\\//g' {} + && find dist -name \"*.html\" -exec sed -i '' 's/href=\"\\/dragon-dash-impossible\\//href=\".\\//g' {} +",
+    "predeploy": "npx expo export -p web && find dist -name \"*.html\" -exec perl -i -pe \"s/src=\\\"\\/dragon-dash-impossible\\//src=\\\".\\//g; s/href=\\\"\\/dragon-dash-impossible\\//href=\\\".\\//g\" {} +",
     "deploy": "gh-pages --nojekyll -d dist"
   },
   "dependencies": {
