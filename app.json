@@ -3,7 +3,6 @@
     "name": "Dragon Dash Impossible",
     "slug": "dragon-dash-chronicles",
     "version": "1.0.0",
-    "baseUrl": "/dragon-dash-impossible",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "rork-app",
@@ -27,8 +26,7 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png",
-      "output": "static",
-      "baseUrl": "/dragon-dash-impossible"
+      "output": "static"
     },
     "plugins": [
       [
@@ -41,7 +39,8 @@
       "expo-web-browser"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/dragon-dash-impossible"
     }
   }
 }
